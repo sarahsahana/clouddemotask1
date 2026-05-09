@@ -9,6 +9,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <h1>{process.env.REACT_APP_KEY_APPNAME}</h1>
+        <h2>{process.env.REACT_APP_KEY_VERSION}</h2>
+        <h3>{process.env.REACT_APP_KEY_COLOUR}</h3>
+        <h4>{process.env.REACT_APP_KEY_LENGTH}</h4>
         <a
           className="App-link"
           href="https://reactjs.org"
